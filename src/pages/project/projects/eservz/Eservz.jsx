@@ -7,7 +7,7 @@ import "./eservz.css";
 
 import { Footer, Work } from "../../../../components";
 import finixpe from "../../../../assets/finixpe.png";
-import zzzone from "../../../../assets/zzzone.png";
+import gourmet from "../../../../assets/gourmet.png";
 
 function Eservz() {
   return (
@@ -63,7 +63,14 @@ function Eservz() {
         More like this..
       </h2>
       <div className="project-works" style={{ backgroundColor: "#f4f4f4" }}>
-        <Work link="/projects/zzzone" workpic={zzzone}></Work>
+        <Work
+          workpic={gourmet}
+          worktype="App Design"
+          description="The Gourmet Planet App is a unique non-commercial Food Lovers App"
+          workColor="#E5A600"
+          link="/projects/gourmet"
+          title="Gourmet Planet"
+        ></Work>
         <Work
           workpic={finixpe}
           title="Finixpe"

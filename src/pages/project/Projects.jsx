@@ -5,6 +5,7 @@ import eservz from "../../assets/eservz.png";
 import finixpe from "../../assets/finixpe.png";
 import zzzone from "../../assets/zzzone.png";
 import myntra from "../../assets/myntra.png";
+import gourmet from "../../assets/gourmet.png";
 function Projects() {
   return (
     <>
@@ -19,6 +20,14 @@ function Projects() {
             workColor="#FFA22F"
             link="eservz"
             title="Eservz"
+          ></Work>
+          <Work
+            workpic={gourmet}
+            worktype="App Design"
+            description="The Gourmet Planet App is a unique non-commercial Food Lovers App"
+            workColor="#E5A600"
+            link="gourmet"
+            title="Gourmet Planet"
           ></Work>
           <Work workpic={zzzone}></Work>
           <Work

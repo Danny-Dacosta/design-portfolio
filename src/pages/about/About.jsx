@@ -138,7 +138,7 @@ function About() {
             </div>
             <div className="exp-period">Dec 2022 - Jul 2023</div>
             <div className="exp-desc">
-              <div className="each-exp"> - Designed B2B and B20 websites.</div>
+              <div className="each-exp"> - Designed B2B and B2C websites.</div>
               <div className="each-exp">
                 - Revamped product labels and packaging
               </div>
@@ -219,18 +219,18 @@ function About() {
               </div>
             </div>
           </div>
-          <h2 className="home-work-title about-skill">Recent Works</h2>
-          <div className="project-works">
-            <Work
-              workpic={eservz}
-              worktype="E-Com Website Redesign"
-              description="Eservz is a leading and globally renowned e-commerce and Amazon specialist agency."
-              workColor="#FFA22F"
-              link="/projects/eservz"
-              title="Eservz"
-            ></Work>
-            <Work link="/projects/zzzone" workpic={zzzone}></Work>
-          </div>
+        </div>
+        <h2 className="home-work-title about-skill">Recent Works</h2>
+        <div className="project-works">
+          <Work
+            workpic={eservz}
+            worktype="E-Com Website Redesign"
+            description="Eservz is a leading and globally renowned e-commerce and Amazon specialist agency."
+            workColor="#FFA22F"
+            link="/projects/eservz"
+            title="Eservz"
+          ></Work>
+          <Work link="/projects/zzzone" workpic={zzzone}></Work>
         </div>
       </div>
       <Footer></Footer>
