@@ -1,0 +1,255 @@
+:root {
+  --color1: rgb(244, 244, 244);
+  --color2: rgb(239, 234, 228);
+  --color3: rgb(228, 232, 255);
+  --color4: rgb(175, 190, 255);
+  --color5: rgb(76, 72, 255);
+  --color6: rgb(0, 108, 255);
+}
+
+.about-section {
+  padding-top: 100px;
+  background-color: var(--color1);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.about-photo {
+  margin: 50px 40px;
+  width: 350px;
+}
+.description {
+  max-width: 750px;
+  padding: 10px;
+}
+
+.description > span {
+  color: var(--color7);
+}
+
+.about-resume {
+  padding: 20px 40px;
+  font-size: 20px;
+  background-color: #fd8201;
+  color: white;
+  border-radius: 120px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.about-resume:hover {
+  background-color: #fd9c34;
+}
+@media screen and (max-width: 768px) {
+  .about-section {
+    padding-top: 90px;
+  }
+  .about-intro {
+    font-size: 1.3rem;
+    padding: 0;
+  }
+  .about-resume {
+    padding: 20px 30px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about-section {
+    flex-direction: column;
+    height: auto;
+    padding: 120px 5px 20px 5px;
+  }
+  .about-intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 0;
+  }
+  .about-photo {
+    width: 250px;
+    margin-bottom: 50px;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .about-photo {
+    width: 250px;
+    margin-bottom: 50px;
+    margin: 20px;
+  }
+  .about-intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 0;
+  }
+  .about-resume {
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+
+.about-skills-exp {
+  background-color: var(--color1);
+  padding-bottom: 50px;
+}
+
+.about-skill {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.skills-software {
+  width: 50%;
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills-title {
+  color: var(--color5);
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.each-skill {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 700px) {
+  .skills-section {
+    display: flex;
+    height: 30vh;
+
+    width: 100%;
+    margin: 0;
+  }
+  .skills-title {
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  .each-skill {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .skills-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+  .skills-design {
+    width: 100%;
+  }
+  .skills-software {
+    width: 100%;
+  }
+}
+.right-skills {
+  display: "flex";
+  flex-direction: "column";
+  align-items: "center";
+}
+
+.left-skills {
+  display: "flex";
+  align-items: "center";
+  flex-direction: "column";
+}
+
+.exp-section-new {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+}
+
+.exp-card {
+  max-width: 450px;
+  margin: 20px 0px;
+  width: 40%;
+  background-color: var(--color2);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.exp-title {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.exp-company {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.exp-place {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.exp-period {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.exp-desc {
+  padding-top: 10px;
+  font-size: 12px;
+  padding: 15px;
+}
+.each-exp {
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .exp-section-new {
+    display: flex;
+    justify-content: center;
+  }
+  .exp-card {
+    max-width: 500px;
+    width: 80%;
+    background-color: var(--color2);
+  }
+}

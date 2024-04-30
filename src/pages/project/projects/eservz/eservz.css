@@ -1,0 +1,30 @@
+.eservz-desc {
+  padding-top: 0px;
+}
+
+.proj-more-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.project-more-desc {
+  font-size: 18px;
+}
+
+.project-more-img {
+  width: 70%;
+  margin: 20px 15%;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .project-more-desc {
+    font-size: 14px;
+  }
+  .project-more-img {
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 20px;
+  }
+}

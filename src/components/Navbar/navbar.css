@@ -1,0 +1,80 @@
+:root {
+  --color1: rgb(244, 244, 244);
+  --color2: rgb(239, 234, 228);
+  --color3: rgb(228, 232, 255);
+  --color4: rgb(175, 190, 255);
+  --color5: rgb(76, 72, 255);
+  --color6: rgb(0, 108, 255);
+}
+
+.shadowclass {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 8%;
+  background-image: linear-gradient(var(--color2), var(--color1));
+  z-index: 10;
+}
+
+.main-nav {
+  position: fixed;
+  padding: 16px 50px;
+  display: flex;
+  width: 90%;
+  background-color: var(--color2);
+  border-radius: 120px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 5%;
+  z-index: 50;
+}
+
+.nav-links {
+  display: flex;
+  gap: 100px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: rgb(124, 124, 124);
+}
+
+.nav-contact {
+  font-size: 20px;
+}
+
+.nav-contact:hover {
+  cursor: pointer;
+  color: rgb(124, 124, 124);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-pic {
+  height: 40px;
+}
+
+@media screen and (max-width: 900px) {
+  .nav-links {
+    font-size: 16px;
+    gap: 16px;
+  }
+  .nav-contact {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-contact {
+    display: none;
+  }
+}

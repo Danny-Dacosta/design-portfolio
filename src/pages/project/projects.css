@@ -1,0 +1,39 @@
+:root {
+  --color1: rgb(244, 244, 244);
+  --color2: rgb(239, 234, 228);
+  --color3: rgb(228, 232, 255);
+  --color4: rgb(175, 190, 255);
+  --color5: rgb(76, 72, 255);
+  --color6: rgb(0, 108, 255);
+  --color7: #fd9f24;
+}
+.projects-main {
+  background-color: var(--color1);
+  min-height: 100vh;
+  padding: 150px 20px 50px 20px;
+}
+
+.project-works {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-title {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 700px) {
+  .projects-main {
+    padding: 120px 20px 50px 20px;
+  }
+
+  .project-works {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .projects-title {
+    font-size: 24px;
+  }
+}

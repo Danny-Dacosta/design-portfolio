@@ -1,0 +1,54 @@
+:root {
+  --color1: rgb(244, 244, 244);
+  --color2: rgb(239, 234, 228);
+  --color3: rgb(228, 232, 255);
+  --color4: rgb(175, 190, 255);
+  --color5: rgb(76, 72, 255);
+  --color6: rgb(0, 108, 255);
+}
+
+.footer-main {
+  padding: 10px;
+  width: 100%;
+  background-color: var(--color2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-email {
+  font-weight: 500;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.footer-email:hover {
+  color: rgb(157, 157, 157);
+  cursor: pointer;
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+.footer-icon {
+  margin: 10px;
+  height: 35px;
+  transition: transform 0.3s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.1);
+}
+
+.footer-copyright {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 400px) {
+  .footer-email {
+    font-size: 16px;
+  }
+}
