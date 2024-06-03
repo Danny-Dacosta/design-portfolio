@@ -1,1 +1,1 @@
-Tanya's Portfolio
+##Fully Responsive Design Portfolio made with react 
