@@ -22,13 +22,14 @@ function Projects() {
             title="Eservz"
           ></Work>
           <Work
-            workpic={gourmet}
-            worktype="App Design"
-            description="The Gourmet Planet App is a unique non-commercial Food Lovers App"
-            workColor="#E5A600"
-            link="gourmet"
-            title="Gourmet Planet"
+            workpic={finixpe}
+            title="Finixpe"
+            worktype="Website Design"
+            description="Finixpe is providing payment Solutions for companies of all sizes"
+            workColor="#F15A29"
+            link="finixpe"
           ></Work>
+
           <Work workpic={zzzone}></Work>
           <Work
             workpic={myntra}
@@ -39,12 +40,12 @@ function Projects() {
             link="myntra"
           ></Work>
           <Work
-            workpic={finixpe}
-            title="Finixpe"
-            worktype="Website Design"
-            description="Finixpe is providing payment Solutions for companies of all sizes"
-            workColor="#F15A29"
-            link="finixpe"
+            workpic={gourmet}
+            worktype="App Design"
+            description="The Gourmet Planet App is a unique non-commercial Food Lovers App"
+            workColor="#E5A600"
+            link="gourmet"
+            title="Gourmet Planet"
           ></Work>
         </div>
       </div>

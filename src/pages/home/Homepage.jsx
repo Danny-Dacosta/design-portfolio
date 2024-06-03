@@ -4,7 +4,7 @@ import tanya from "../../assets/tanyaphoto.png";
 import { Link } from "react-router-dom";
 import { Work, Footer, Scroll } from "../../components";
 import eservz from "../../assets/eservz.png";
-import gourmet from "../../assets/gourmet.png";
+import finixpe from "../../assets/finixpe.png";
 
 import zzzone from "../../assets/zzzone.png";
 import myntra from "../../assets/myntra.png";
@@ -126,12 +126,12 @@ function Homepage() {
             title="Eservz"
           ></Work>
           <Work
-            workpic={gourmet}
-            worktype="App Design"
-            description="The Gourmet Planet App is a unique non-commercial Food Lovers App🍕"
-            workColor="#E5A600"
-            link="projects/gourmet"
-            title="Gourmet Planet"
+            workpic={finixpe}
+            title="Finixpe"
+            worktype="Website Design"
+            description="Finixpe is providing payment Solutions for companies of all sizes"
+            workColor="#F15A29"
+            link="projects/finixpe"
           ></Work>
           <Work workpic={zzzone} link="projects/zzzone"></Work>
           <Work
